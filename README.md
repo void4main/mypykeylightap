@@ -1,8 +1,14 @@
-# My Python Key Light AccessPoint
+# My Python (Elgato) Key Light AccessPoint
 
-A simple mobile Access Point for my Elgato Key Lights based on an ESP32.
+A simple mobile access point for my Elgato Key Lights based on an ESP32.
 
-If you have problems to add your Key Lights to your local infrastructure or are in need of a mobile solutions you should have a look of this.
+If you are having trouble getting your Key Lights to work with your local infrastructure, or if you need a mobile solution, check this out.
 
-Idea: You create an AP with on your ESP32 and add your Key Lights to this AP.
-Then you can control the lights everywhere with your mobile phone connected to the AP as well.
+The idea: you create an AP with your ESP32 and add your Key Lights to that AP.
+Then you can control the lights anywhere with your cell phone, which is also connected to the AP.
+
+1. Install MicroPython on your ESP32
+2. Replace the boot.py
+3. Connect your phone to the ESP32 AP
+4. Connect your Elgato Key Light to the AP via the Control Center app.
+5. Manage your Key Lights through the ESP32 AP.
